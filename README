@@ -2,7 +2,7 @@
 
 A decentralized messaging application built using Ethereum smart contracts with basic end-to-end encryption.
 
----
+## 📸  Screenshot
 
 ## 🔥 Features
 - Send messages on blockchain
@@ -11,7 +11,6 @@ A decentralized messaging application built using Ethereum smart contracts with 
 - End-to-End Encryption (basic)
 - React frontend (ethers.js)
 
----
 
 ## 🛠 Tech Stack
 - Solidity
@@ -19,10 +18,6 @@ A decentralized messaging application built using Ethereum smart contracts with 
 - React.js
 - ethers.js
 - Crypto-JS
-
----
-
-## ⚙️ Full Setup Guide
 
 ### 1️⃣ Clone Project
 
@@ -40,14 +35,13 @@ npm install
 cd client
 npm install
 
----
+
 
 ### 3️⃣ Start Blockchain
 
 cd ..
 npx hardhat node
 
----
 
 ### 4️⃣ Deploy Smart Contract
 
@@ -58,7 +52,6 @@ npx hardhat run scripts/deploy.js --network localhost
 
 👉 Copy contract address
 
----
 
 ### 5️⃣ Update Contract Address
 
@@ -66,18 +59,14 @@ Go to:
 
 client/src/App.js
 
-Replace:
-
 const contractAddress = "YOUR_ADDRESS";
 
----
 
 ### 6️⃣ Start Frontend
 
 cd client
 npm start
 
----
 
 ## 🎯 Usage
 
@@ -87,15 +76,13 @@ npm start
 4. Send message  
 5. Load messages  
 
----
 
 ## ⚠️ Notes
 
 - This project uses local blockchain (Hardhat)
-- ETH used is fake (testing purpose)
+- ETH used is  (testing purpose)
 - Restarting node will reset accounts
 
----
 
 ## 👨‍💻 Author
 
