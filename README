@@ -2,10 +2,10 @@
 
 A decentralized messaging application built using Ethereum smart contracts with basic end-to-end encryption.
 
-## 📸  Screenshot
+# 📸  Screenshot
 p2.png
 
-## 🔥 Features
+# 🔥 Features
 - Send messages on blockchain
 - MetaMask wallet integration
 - Hardhat local blockchain
@@ -13,21 +13,19 @@ p2.png
 - React frontend (ethers.js)
 
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 - Solidity
 - Hardhat
 - React.js
 - ethers.js
 - Crypto-JS
 
-### 1️⃣ Clone Project
+# 1️⃣ Clone Project
 
 git clone https://github.com/hackmadhav/blockchain-chat.git
 cd blockchain-chat
 
----
-
-### 2️⃣ Install Dependencies
+# 2️⃣ Install Dependencies
 
 # root
 npm install
@@ -38,13 +36,13 @@ npm install
 
 
 
-### 3️⃣ Start Blockchain
+# 3️⃣ Start Blockchain
 
 cd ..
 npx hardhat node
 
 
-### 4️⃣ Deploy Smart Contract
+# 4️⃣ Deploy Smart Contract
 
 open new terminal:
 
@@ -54,7 +52,7 @@ npx hardhat run scripts/deploy.js --network localhost
 👉 Copy contract address
 
 
-### 5️⃣ Update Contract Address
+# 5️⃣ Update Contract Address
 
 Go to:
 
@@ -63,13 +61,13 @@ client/src/App.js
 const contractAddress = "YOUR_ADDRESS";
 
 
-### 6️⃣ Start Frontend
+# 6️⃣ Start Frontend
 
 cd client
 npm start
 
 
-## 🎯 Usage
+# 🎯 Usage
 
 1. Connect MetaMask  
 2. Select Hardhat Local Network  
@@ -78,12 +76,12 @@ npm start
 5. Load messages  
 
 
-## ⚠️ Notes
+# ⚠️ Notes
 
 - This project uses local blockchain (Hardhat)
 - ETH used is  (testing purpose)
 - Restarting node will reset accounts
 
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 h4ckmadhav
